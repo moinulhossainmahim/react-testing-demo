@@ -1,7 +1,7 @@
-import TermsAndConditions from "../components/TermsAndConditions";
+import ExpandableText from "../components/ExpandableText";
 
 const PlaygroundPage = () => {
-  return <TermsAndConditions />
+  return <ExpandableText text="Hello world!" />
 };
 
 export default PlaygroundPage;
